@@ -1,6 +1,8 @@
 Revision history for Dist-Zilla-PluginBundle-LEONT-Base
 
 {{$NEXT}}
+
+0.002     2011-09-19 22:32:24 Europe/Amsterdam
           Added InstallGuide
 
 0.001     2011-09-18 16:13:37 Europe/Amsterdam
