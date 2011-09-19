@@ -2,8 +2,6 @@ package Dist::Zilla::PluginBundle::LEONT::Base;
 use strict;
 use warnings;
 
-use Dist::Zilla::PluginBundle::Git;
-
 use Moose;
 use Dist::Zilla;
 with 'Dist::Zilla::Role::PluginBundle::Easy';
@@ -19,6 +17,7 @@ Git::NextVersion
 
 PodWeaver
 PkgVersion
+InstallGuide
 
 PodSyntaxTests
 PodCoverageTests
