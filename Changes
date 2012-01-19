@@ -1,6 +1,8 @@
 Revision history for Dist-Zilla-PluginBundle-LEONT-Base
 
 {{$NEXT}}
+
+0.005     2012-01-19 01:48:20 Europe/Amsterdam
           Added RemovePlugin and ConfigSlicer to roleset
           Removed Signature from plugin list
 
