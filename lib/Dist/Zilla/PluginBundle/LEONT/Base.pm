@@ -24,7 +24,6 @@ PodCoverageTests
 Test::Compile
 
 NextRelease
-Signature
 CheckChangesHasContent
 /;
 
@@ -66,7 +65,6 @@ Some plugins LEONT uses. It is equivalent to:
     [Test::Compile]
     
     [NextRelease]
-    [Signature]
     [CheckChangesHasContent]
     [@Git]
 
