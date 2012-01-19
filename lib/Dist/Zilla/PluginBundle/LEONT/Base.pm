@@ -4,7 +4,7 @@ use warnings;
 
 use Moose;
 use Dist::Zilla;
-with 'Dist::Zilla::Role::PluginBundle::Easy';
+with qw/Dist::Zilla::Role::PluginBundle::Easy Dist::Zilla::Role::PluginBundle::PluginRemover Dist::Zilla::Role::PluginBundle::Config::Slicer/;
 
 my @plugins = qw/
 AutoPrereqs
