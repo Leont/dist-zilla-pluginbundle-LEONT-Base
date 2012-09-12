@@ -32,7 +32,6 @@ sub configure {
 	my $self = shift;
 
 	$self->add_plugins(@plugins);
-	$self->add_plugins([ ('Test::Kwalitee') x 2, $self->config_slice({skip_kwalitee => 'skiptest' })]);
 	$self->add_bundle("\@$_") for @bundles;
 	return;
 }

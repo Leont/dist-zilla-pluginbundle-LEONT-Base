@@ -1,6 +1,7 @@
 Revision history for Dist-Zilla-PluginBundle-LEONT-Base
 
 {{$NEXT}}
+          Remove [Test::Kwalitee] from bundle
           Remove MetaResources from Pluginbundle
           Remove [Signature] from dependency list
 
