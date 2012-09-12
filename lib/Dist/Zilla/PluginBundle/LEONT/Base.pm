@@ -9,7 +9,6 @@ with qw/Dist::Zilla::Role::PluginBundle::Easy Dist::Zilla::Role::PluginBundle::P
 my @plugins = qw/
 AutoPrereqs
 MetaJSON
-MetaResources
 Repository
 Bugtracker
 MinimumPerl
